@@ -11,12 +11,12 @@ A key challenge in metabolomics is annotating spectra measured from a biological
 - source code files
     - `gnn_sp.py`: gnn model for spectra prediction
     -  `mlp_mt.py`: mlp models for spectra prediction
-   -  `utils.py`: helper functions
+    -  `utils.py`: helper functions
 - `data` folder:
-        - `test_inchi_ik_dict.pkl`: inchikey to inchi mapping for candidates
-        - `MHfilter_trvate_idx.pkl`: index of M+H precursors
-        - `filter_te_idx.pkl`: index of test after filtering
-        - `lda_100.npz`: lda topics 
+    - `test_inchi_ik_dict.pkl`: inchikey to inchi mapping for candidates
+    - `MHfilter_trvate_idx.pkl`: index of M+H precursors
+    - `filter_te_idx.pkl`: index of test after filtering
+    - `lda_100.npz`: lda topics 
  - `results` folder:
     - `best_model_gnn_e.pt`: best gnn model trained with lda, attention for ensemble model
    - `best_model_mlp_e.pt`: best mlp model trained with lda, attention for ensemble model
