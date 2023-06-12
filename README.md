@@ -70,4 +70,4 @@ A key challenge in metabolomics is annotating spectra measured from a biological
 
 
 #### Contact
-Xinmeng.li@tufts.edu
+Soha.Hassoun@tufts.edu
